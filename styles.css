@@ -32,7 +32,7 @@ body {
     /* Fonts */
     /* The text-shadow helps the white text stand out better on a darker background */
     color: white;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 1px 1px 1px black;
   }
   
   /* The background color of the "testimonials" part */
