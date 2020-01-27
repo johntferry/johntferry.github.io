@@ -1,0 +1,61 @@
+/* Typography */
+body {
+    /* Everything is Playfair Display */
+    font-family: 'Playfair Display', serif;
+  }
+  /* Except we're using more specific rules to override the headlines */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', serif;
+  }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+  .navbar-light .navbar-brand {
+    color: red;
+  }
+  
+  /* Navbar background color */
+  .navbar {
+    background-color: white;
+  }
+  
+  /* Jumbotron background and font styles */
+  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+  .jumbotron {
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  /* The background color of the "testimonials" part */
+  .testimonials {
+    background-color: #eeeeee;
+  }
+  
+  /* The size of the testimonials images */
+  .media img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  /* The pricing */
+  .pricing {
+    background-color: #181818;
+  }
+  .pricing h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #cccccc;
+  }
+  
+  /* The footer */
+  .footer img {
+    width: 100px;
+  }
