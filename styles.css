@@ -3,7 +3,6 @@ body {
     /* Everything is Playfair Display */
     font-family: 'Playfair Display', serif;
   }
-  /* Except we're using more specific rules to override the headlines */
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', serif;
   }
@@ -19,9 +18,6 @@ body {
   .navbar {
     background-color: white;
   }
-  
-  /* Jumbotron background and font styles */
-  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
   .jumbotron {
     /* Background */
     background-attachment: scroll;
@@ -29,33 +25,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   
-    /* Fonts */
-    /* The text-shadow helps the white text stand out better on a darker background */
     color: white;
     text-shadow: 1px 1px 1px black;
   }
   
-  /* The background color of the "testimonials" part */
-  .testimonials {
-    background-color: #eeeeee;
-  }
-  
-  /* The size of the testimonials images */
-  .media img {
-    width: 64px;
-    height: 64px;
-  }
-  
-  /* The pricing */
-  .pricing {
-    background-color: #181818;
-  }
-  .pricing h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: #cccccc;
-  }
-  
   /* The footer */
   .footer img {
-    width: 100px;
+    width: 50px;
   }
